@@ -1,4 +1,6 @@
 from telegram import Update, Bot
+import locale
+locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, JobQueue
 import datetime
 import random
